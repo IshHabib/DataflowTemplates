@@ -38,6 +38,7 @@ steps:
   - 'clean'
   - 'verify'
   - '--batch-mode'
+  - '-DskipTests'
   volumes:
   - path: '/cache/.m2'
     name: 'm2_cache'
